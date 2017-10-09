@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.io.IOException;
 
@@ -53,7 +54,9 @@ public class PhotoGalleryFragment extends Fragment {
 
         }
 
+    }
+    private class PhotoHolder extends Recyclerview.ViewHolder {
+        private TextView mTitleTextView;
 
     }
-
 }
